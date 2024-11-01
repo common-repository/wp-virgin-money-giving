@@ -1,0 +1,109 @@
+/**
+ * All of the CSS for your public-facing functionality should be
+ * included in this file.
+ */
+#vgm-widget .vgm-base a img {
+	margin-bottom: 20px;
+}
+#vgm-widget .vgm-top {
+	background: #e2e3e2;
+	padding: 5% 10%;
+}
+
+#vgm-widget .vgm-top p {
+	padding:0px;
+	margin:0px;
+	text-align: center;
+	color: #888;
+	font-weight:bold;
+}
+
+#vgm-widget .meter {
+	-webkit-box-sizing: content-box;
+	-moz-box-sizing: content-box;
+	box-sizing: content-box;
+	width: 100%;
+	height: 175px;
+	border: none;
+	font: normal 100%/normal Arial, Helvetica, sans-serif;
+	color: rgba(255,255,255,1);
+	-o-text-overflow: clip;
+	text-overflow: clip;
+	background: -webkit-linear-gradient(90deg, #eeeeee 0, #eeeeee 46%, #ffffff 51%, #eeeeee 56%, rgba(0,0,0,0) 100%, rgba(0,0,0,0) 100%, #eeeeee 100%), rgba(239,239,239,1);
+	background: -moz-linear-gradient(0deg, #eeeeee 0, #eeeeee 46%, #ffffff 51%, #eeeeee 56%, rgba(0,0,0,0) 100%, rgba(0,0,0,0) 100%, #eeeeee 100%), rgba(239,239,239,1);
+	background: linear-gradient(0deg, #eeeeee 0, #eeeeee 46%, #ffffff 51%, #eeeeee 56%, rgba(0,0,0,0) 100%, rgba(0,0,0,0) 100%, #eeeeee 100%), rgba(239,239,239,1);
+	background-position: auto auto;
+	-webkit-background-origin: padding-box;
+	background-origin: padding-box;
+	-webkit-background-clip: border-box;
+	background-clip: border-box;
+	-webkit-background-size: 100% 2em;
+	background-size: 100% 2em;
+	position:relative;
+	overflow: hidden;
+}
+
+#vgm-widget .meter span {
+	position:absolute;
+	bottom:0;
+	display:block;
+	width: 70%;
+	padding: 10px 0px;
+	margin: 0px 15%;
+	text-align:center;
+	color:#fff;
+	font-weight:bold;
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#db113a+0,892a5f+100 */
+	background: #db113a; /* Old browsers */
+	background: -moz-linear-gradient(top, #db113a 0%, #892a5f 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top, #db113a 0%,#892a5f 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom, #db113a 0%,#892a5f 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#db113a', endColorstr='#892a5f',GradientType=0 ); /* IE6-9 */
+}
+
+#vgm-widget .vgm-base {
+    background-color: #892a5f;
+    border-top: 1px solid #E5E5E5;
+}
+
+#vgm-widget .vgm-base ul.numbers {
+    padding: 5% 10% 0;
+    margin-bottom: 10px;
+}
+
+#vgm-widget .vgm-base a {
+	display: block;
+	padding: 10% 10%;
+}
+
+#vgm-widget li.detail {
+    color: #fff;
+    text-align: left;
+    font-size: 14px;
+    line-height: 1.5em;
+    list-style: none;
+    display: block;
+    clear: both;
+}
+
+#vgm-widget span.data {
+    float: right;
+    font-weight: bold;
+}
+
+#vgm-widget .vgm-base a p {
+    color: #892A5F;
+    text-align: center;
+    font-weight: bold;
+    background: #5DE3FF;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    margin-bottom: 0px;
+}
+
+.vgm-image {
+    padding: 20px;
+    border: 1px #e1e1e1 solid;
+    margin-bottom: 20px;
+    text-align: center;
+}

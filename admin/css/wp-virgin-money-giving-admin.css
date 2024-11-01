@@ -1,0 +1,22 @@
+/**
+ * All of the CSS for your admin-specific functionality should be
+ * included in this file.
+ */
+ 
+.vmg-check-api {
+    background: url(../img/virgin-money-giving.png) 30px 20px no-repeat #CC0000;
+    padding: 50px;
+}
+ 
+.vmg-check-api input {
+	float: right;
+}
+
+ 
+ul.sub {
+	margin-left: 30px;
+}
+
+ul.sub-sub {
+	margin-left: 30px;
+}
